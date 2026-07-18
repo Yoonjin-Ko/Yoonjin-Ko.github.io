@@ -24,7 +24,7 @@ citySelect.addEventListener('change', async function(event) {
 
     if (weatherInfo) {
         weatherBox.innerHTML = `
-            <div style="background-color: #e8f8f5; border-left: 5px solid #16a085; padding: 15px; margin-top: 10px;">
+            <div class="weather-card">
                 <h4>모듈형 날씨 피드: ${cityName}</h4>
                 <p>🌡️ 기온: ${weatherInfo.temp}°C</p>
                 <p>💧 습도: ${weatherInfo.humidity}%</p>
