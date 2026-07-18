@@ -1,0 +1,414 @@
+
+
+/* 전체 배경 */
+body.yahoo-theme {
+    background: #eeeeee;
+    color: #8f6693;
+    font-family: Dotum, "돋움", sans-serif;
+}
+
+
+/* 헤더 */
+body.yahoo-theme header {
+    background: #9e7eba !important;
+    color: white !important;
+    border-bottom: 3px solid #400080;
+}
+
+
+/* 헤더 제목 */
+body.yahoo-theme header h1 {
+    color: white !important;
+    text-shadow: none;
+}
+
+
+/* 검색창 */
+body.yahoo-theme .search-box input {
+    border: 1px solid #888;
+    border-radius: 0;
+    background: white;
+}
+
+body.yahoo-theme .search-box button {
+    background: white;
+    color: #400080;
+    border: 1px solid #888;
+    border-radius: 0;
+}
+
+
+/* 메뉴 영역 */
+body.yahoo-theme .menu {
+    background: #5e3781 !important;
+    color: white !important;
+    border-radius: 0;
+}
+
+
+/* 네비 버튼 */
+body.yahoo-theme .nav-buttons button {
+    background: white;
+    color: #400080;
+    border: 1px solid #999;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+body.yahoo-theme .nav-buttons button:hover {
+    background: #eee;
+}
+
+
+/* 좌측 메뉴 / 메인 */
+body.yahoo-theme aside,
+body.yahoo-theme main {
+
+    background: white !important;
+
+    border: 1px solid #aaa;
+
+    border-radius: 0;
+
+    box-shadow: none;
+
+    backdrop-filter: none;
+}
+
+
+/* h1 */
+body.yahoo-theme .container h1 {
+
+    margin: 0 0 20px;
+
+    padding: 8px 10px;
+
+    font-family: Arial, "Malgun Gothic", sans-serif;
+
+    font-size: 26px;
+
+    font-weight: bold;
+
+    background: #eeeeee !important;
+
+    border-bottom: 1px solid #999;
+
+    border-left: none;
+
+    box-shadow: none;
+}
+
+
+/* h2 */
+body.yahoo-theme .container h2 {
+
+    padding: 6px 10px;
+
+    font-family: Arial, "Malgun Gothic", sans-serif;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    color: #a881cf;
+
+    background: #eeeeee;
+
+    border-left: 5px solid #afa6b7;
+}
+
+
+/* 카드 */
+body.yahoo-theme .trip-card {
+
+    background: white;
+
+    border: 1px solid #aaa;
+
+    border-radius: 0;
+
+    box-shadow: none;
+
+}
+
+
+body.yahoo-theme .trip-card:hover {
+
+    transform: none;
+
+    box-shadow: none;
+
+}
+
+
+/* 표 */
+body.yahoo-theme table {
+
+    background: white;
+
+    border-collapse: collapse;
+
+}
+
+
+body.yahoo-theme td,
+body.yahoo-theme th {
+
+    border: 1px solid #999;
+
+}
+
+
+/* 입력창 */
+body.yahoo-theme input,
+body.yahoo-theme textarea,
+body.yahoo-theme select {
+
+    border: 1px solid #999;
+
+    border-radius: 0;
+
+}
+
+
+/* 버튼 */
+body.yahoo-theme button,
+body.yahoo-theme input[type="submit"],
+body.yahoo-theme input[type="reset"] {
+
+    border-radius: 0;
+
+    background: linear-gradient(#fff,#ddd);
+
+    border: 1px solid #888;
+
+    color: #333;
+
+}
+
+
+/* 이미지 모달 */
+body.yahoo-theme #imageModal {
+
+    background: rgba(179, 148, 148, 0.5);
+
+}
+/* =========================
+   Yahoo old style title
+========================= */
+
+body.yahoo-theme .container h1 {
+    margin: 0 0 20px;
+    padding: 10px 12px;
+
+    font-family: Dotum, "돋움", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+
+    color: #333;
+
+    background: linear-gradient(
+        to bottom,
+        #ffffff 0%,
+        #eeeeee 50%,
+        #d6d6d6 100%
+    );
+
+    border: 1px solid #999;
+
+    box-shadow:
+        inset 0 1px 0 white,
+        inset 0 -1px 0 #bbb;
+}
+
+
+body.yahoo-theme .container h2 {
+
+    display: block;
+
+    padding: 6px 10px;
+
+    margin-top: 20px;
+
+    font-family: Dotum, "돋움", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+
+    color: #333;
+
+    background: #e9e9e9;
+
+    border-left: 5px solid #ab86cb;
+    border-bottom: 1px solid #bbb;
+}
+/* =========================
+   Yahoo Classic UI Style
+========================= */
+
+
+/* 전체 배경 */
+body.yahoo-theme {
+    background: none !important;
+    color: #333;
+    font-family: Dotum, "돋움", Arial, sans-serif;
+}
+
+
+/* 헤더 */
+body.yahoo-theme header {
+
+    background: linear-gradient(
+        to bottom,
+        #e3d7ee,
+        #937da4
+    ) !important;
+
+    color: white !important;
+
+    border-bottom: 3px solid #3b005f;
+
+}
+
+
+/* 헤더 제목 */
+body.yahoo-theme header h1 {
+
+    color:white !important;
+
+    font-family: Dotum, "돋움", sans-serif;
+
+    text-shadow:
+        1px 1px 0 #333;
+
+}
+
+
+/* 메인 / 사이드 */
+body.yahoo-theme main,
+body.yahoo-theme aside {
+
+    background:
+        linear-gradient(
+            to bottom,
+            #ffffff,
+            #eeeeee
+        ) !important;
+
+    border:1px solid #999;
+
+    box-shadow:
+        inset 0 1px 0 white,
+        0 1px 3px rgba(0,0,0,.2);
+
+}
+
+
+/* 제목 박스 */
+body.yahoo-theme .container h1 {
+
+    font-family: Dotum, "돋움", sans-serif !important;
+
+    font-size:28px;
+
+    color:#333 !important;
+
+    background:
+
+        linear-gradient(
+            to bottom,
+            #ffffff 0%,
+            #eeeeee 50%,
+            #cccccc 100%
+        ) !important;
+
+
+    border:1px solid #999;
+
+    border-top:4px solid #c5a2e3;
+
+    padding:10px 12px;
+
+
+    box-shadow:
+
+        inset 0 1px 0 white,
+        inset 0 -1px 0 #aaa;
+
+}
+
+
+/* 소제목 */
+body.yahoo-theme .container h2 {
+
+    font-family:Dotum,"돋움",sans-serif;
+
+    background:
+
+        linear-gradient(
+            to bottom,
+            #ffffff,
+            #ddd
+        ) !important;
+
+
+    color:#333 !important;
+
+    border:1px solid #aaa;
+
+
+    padding:6px 10px;
+
+}
+
+
+/* 카드 */
+body.yahoo-theme .trip-card {
+
+    background:
+
+        linear-gradient(
+            to bottom,
+            #ffffff,
+            #eeeeee
+        );
+
+    border:1px solid #999;
+
+    box-shadow:
+        0 1px 3px rgba(0,0,0,.25);
+
+}
+
+
+/* 버튼 */
+body.yahoo-theme button,
+body.yahoo-theme input[type="submit"],
+body.yahoo-theme input[type="reset"] {
+
+    font-family:Dotum,"돋움",sans-serif;
+
+    background:
+
+        linear-gradient(
+            to bottom,
+            #ffffff,
+            #d7d7d7
+        );
+
+
+    border:1px solid #888;
+
+    color:#333;
+
+    padding:4px 12px;
+
+}
+
+
+body.yahoo-theme button:hover {
+
+    background:#eeeeee;
+
+}
+
+

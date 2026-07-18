@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>고윤진웹</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/yahoo.css">
+<style>
+body {
+    background-image: url("../media/image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+</style>
+</head>
+<body class="main-page">
+<header>
+    <button id="themeBtn">테마 바꾸기</button>
+    <img src="../media/pig.png" alt="홈" id="homeBtn">
+    <div class="tooltip">
+     <img src="../media/청설모.png" alt="추천검색어" id="keyword">
+      <span class="tooltip-text">
+          추천 검색어<br>
+           • Albert Einstein<br>
+           • Isaac Newton<br>
+           • James Clerk Maxwell<br>
+           • Niels Bohr<br>
+           • Lev Landau<br>
+           • Richard Feynman
+      </span>
+    </div>
+    <h1>Search anything</h1>
+    <div class="search-box">
+        <input type="text" id="search">
+        <button id="searchBtn">검색</button>
+        <ul id="suggestions"></ul>
+    </div>
+
+    <nav>
+     <div class="nav-buttons">
+        <button onclick="loadPage('myProfile.html')">프로필(myProfile)</button>
+        <button onclick="loadPage('myTrip.html')">여행(myTrip)</button>
+        <button onclick="loadPage('myHoliday.html')">휴일일과(myHoliday)</button>
+        <button onclick="loadPage('myClass.html')">시간표(myClass)</button>
+        <button onclick="loadPage('signUp.html')">회원가입(signUp)</button>
+     </div>
+ </nav>
+</header>
+
+<div class="layout">
+    <aside>
+        <h3>실시간 날씨</h3>
+
+    <select id="city-select">
+        <option value="none">도시 선택</option>
+        <option value="37.5665,126.9780">서울</option>
+        <option value="35.1796,129.0756">부산</option>
+        <option value="35.1595,126.8526">광주</option>
+        <option value="34.6937,135.5023">오사카</option>
+        <option value="35.6762,139.6503">도쿄</option>
+    </select>
+
+    <div id="weather-box">
+        <p>도시를 선택하면 날씨가 표시됩니다.</p>
+    </div>
+
+    <hr>
+
+      <div class="side-menu">
+        <a onclick="startGame()">숫자 맞추기 게임</a>
+        <a onclick="checkGrade()">점수 계산기</a>
+        <a onclick="showMyBag()">내 가방 보기</a>
+    </div>
+    </aside>
+    <main>
+    <article>
+        <img id="defaultImg" src="../media/apart.jpg" alt="apart.jpg" class="content-img">
+
+        <iframe id="mainFrame" scrolling="no" style="display:none;"></iframe>
+
+        <section></section>
+
+        <footer>
+            <p></p>
+        </footer>
+    </article>
+</main>
+</div>
+
+<script src="../script/search.js"></script>
+<script src="../script/upDown.js"></script>
+<script src="../script/theme.js"></script>
+<script src="../script/bag.js"></script>
+<script src="../script/grade.js"></script>
+<script src="../script/realtimeInfo.js"></script>
+<script src="../script/weather.js"></script>
+<script src="../script/weatherAPI.js"></script>
+<script src="../script/weatherOld1.js"></script>
+</body>
+</html>
