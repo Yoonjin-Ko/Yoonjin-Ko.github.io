@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 여행 앨범</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/yahoo.css">
+</head>
+<body class="sub-page">
+    <div class="container">
+        <h1>나의 여행 앨범</h1>
+        <audio controls>
+        <source src="../media/Dog Days Are Over_Florence + The Machine_Lungs [Deluxe Edition].mp3" type="audio/mpeg">
+    </audio>
+    <hr>
+    <div class="trip-grid-container">
+        <p class="trip-card">
+            <img src="../media/조슈아.jpg" alt="국립공원"><br>미국 조슈아트리국립공원 (2025년)
+        </p>
+        <p class="trip-card">
+            <img src="../media/jeju.jpg" alt="제주도"><br>제주도 (2023년)
+        </p>
+        <p class="trip-card">
+            <img src="../media/독일.jpg" alt="슈투트가르트"><br>독일 슈투트가르트 (2024년)
+        </p>
+    </div>
+    <hr>
+    <h2>나의 여행 브이로그</h2>
+    <p>
+        <video width="400" height="225" controls>
+            <source src="../media/Yeosu.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <br>여수 밤바다
+    </p>
+    </div>
+    <script>
+    const images = document.querySelectorAll(".trip-card img");
+    const modal = document.getElementById("imageModal");
+    const modalImage = document.getElementById("modalImage");
+    if (modal && modalImage) {
+        images.forEach(img => {
+            img.addEventListener("click", () => {
+                modalImage.src = img.src;
+                modal.style.display = "flex";
+            });
+        });
+        modal.addEventListener("click", () => {
+            modal.style.display = "none";
+        });
+        }
+</script>
+
+<script src="../script/theme.js"></script>
+</body>
+</html>
